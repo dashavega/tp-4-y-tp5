@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const ingresosDiarios = [10000, 15000, 17500, 20000, 25000];
+const totalMensual = ingresosDiarios.reduce((acumulador, ingreso) => acumulador + ingreso, 0);
+
+console.log(`Total de ingresos mensuales: $${totalMensual.toFixed(2)}`);
+
+    </script>
+</body>
+</html>

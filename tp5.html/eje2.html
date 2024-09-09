@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const precios = [150548, 100147, 51254, 255500.45];
+const montoTotal = precios.reduce((acumulador, precio) => acumulador + precio, 0);
+
+console.log(`Monto total a pagar: $${montoTotal.toFixed(2)}`);
+
+    </script>
+</body>
+</html>

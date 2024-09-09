@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const litros = [1200, 2500, 1500, 2544, 2846, 3521];
+const totalLitros = litros.reduce((acumulador, litro) => acumulador + litro, 0);
+
+console.log(`Total de combustible ingresado durante la semana: ${totalLitros.toFixed(2)} Lts`);
+
+    </script>
+</body>
+</html>
